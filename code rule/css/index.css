@@ -1,0 +1,115 @@
+ul {
+  list-style: none;
+}
+
+.carousel-inner {
+  margin-top: -10px;
+}
+
+.carousel .item {
+  height: 450px;
+}
+
+.item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item1 {
+  background-image: url(../images/l3.jpg);
+}
+
+.item2 {
+  background-image: url(../images/l2.jpg);
+}
+
+.item3 {
+  background-image: url(../images/l4.jpg);
+}
+
+.infomation {
+  background-color: rgba(106, 117, 96, 0.3);
+  padding-bottom: 50px;
+}
+
+.i {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.xinwen {
+  width: 46%;
+  display: inline-block;
+  background-color: #fff;
+  margin-top: 60px;
+}
+
+.infomation h1 {
+  font-size: 22px;
+  text-align: left;
+}
+
+.infomation ul a {
+  height: 38px;
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 15px;
+  color: rgb(35, 43, 38);
+  line-height: 38px;
+}
+
+.infomation ul a:hover {
+  border-left: 8px solid #3b80b7;
+}
+
+.infomation ul span {
+  margin-left: 13.5%;
+}
+
+.infomation .big {
+  padding-left: 20px;
+  padding-right: 8px;
+  margin-right: 8px;
+  border-right: 3px solid #3b80b7;
+  color: #23527c;
+}
+
+.tongzhi {
+  width: 46%;
+  display: inline-block;
+  background-color: #fff;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+
+.footer {
+  width: 100%;
+  height: 350px;
+  padding: 50px 0;
+  background-color: #333;
+}
+
+.footer-left {
+  color: #fff;
+  float: left;
+  padding: 30px 125px;
+}
+
+.footer-left address,
+.footer-left p {
+  color: rgb(121, 114, 107);
+}
+
+.footer-right {
+  color: #fff;/* background-color: red; */
+  margin-right: 11%;
+  padding-top: 60px;
+  float: right;
+}
+
+.footer-right a {
+  padding: 10px;
+  display: inline-block;
+  color: rgb(121, 114, 107);
+}
