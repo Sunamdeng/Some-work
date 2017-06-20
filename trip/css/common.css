@@ -1,0 +1,214 @@
+
+nav {
+  transition-duration: 0.6s;
+  position: relative;
+}
+
+.navbar-default {
+  background-color:rgba(235, 223, 185,0);
+  border-color: rgb(171, 166, 151);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:#fff;
+}
+
+.navbar-default .navbar-nav > li:hover{
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: rgb(26, 22, 24);
+  background-color: rgb(170, 182, 134);
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #1b92f4;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #066dd7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default {
+  font-size: 15px;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color:rgb(170, 182, 134);
+}
+
+
+.flex-contain-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  /*margin-left: 4%;*/
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 99;
+  /*position: absolute;*/
+}
+
+.left-box::before {
+  font-family: 华文行楷;
+  content: "前沿动态";
+  color: #fff;
+  font-size: 2.5em;
+  text-align: center;
+  display: block;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  box-shadow: 0 0 10px 5px rgb(80, 80, 80);
+  /*clip: rect(10px,10px,10px,10px);*/
+  left: -50px;
+  top: -50px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.widthAndHight {
+  height: 50vh;
+  width: 40vw;
+}
+
+
+
+
+
+.left-top-box , .left-bottom-box   {
+  width: 40vw;
+  margin-bottom: 50px;
+  background: rgb(170, 182, 134);
+  box-shadow: 0 5px 22px 5px rgb(43, 45, 39);
+  /*display: none;*/
+}
+
+.focus-iterm {
+  margin-bottom: 25px;
+}
+
+.focus-iterm
+ul
+li {
+  list-style: none;
+  padding: 5px 0;
+  /*border-top: 2px solid rgb(0, 0, 0);*/
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.focus-div {
+  margin-bottom: 20px;
+}
+
+.focus-div
+img {
+width: 30%;
+margin-left: 50px;
+/*margin-top: 10px;*/
+/*box-shadow: 0 0 10px 5px rgb(231, 244, 156);*/
+}
+
+.focus-div
+div {
+  display: inline-block;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.flex-contain-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.focus-div
+p {
+  font-size: 16px;
+}
+
+/*手风琴*/
+.pic a {
+  text-decoration: none;
+}
+
+.txt-db p {
+  color: #fff;
+}
+
+.txt-db .p1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.txt-db .p2 {
+  text-align: center;
+  color: rgb(4, 8, 0);
+}
+
+.pic ul li {
+  width: 529px;
+  height: 80px;
+  list-style: none;
+}
+
+
+.pic1 {
+  background-image: url(../img/s2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pic2 {
+  background-image: url(../img/s3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pic3 {
+  background-image: url(../img/s1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pic ul .pic4 {
+  height: 438px;
+  background-image: url(../img/s4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.txt-db {
+  height: 80px;
+  width: 529px;
+  background-color: #000;
+  background: rgba(125, 136, 93,0.6);
+}
+
+
+body {
+  background: rgb(125, 136, 93);
+}
